@@ -1,0 +1,159 @@
+:root {
+    --radius : 20px;
+    --blue : #4242ff;
+}
+
+.content{
+    display: flex;
+    width: 310px;
+    height: 375px;
+    border-radius: var(--radius);
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Cairo', 'serif' ;
+}
+
+.social-icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon.x img {
+    width: 50%;
+    height: auto;
+}
+
+.you {
+    background-color: white;
+}
+.ins {
+    background-color: white;
+}
+.x {
+    background-color: white;
+}
+.face {
+    background-color: white;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+/* .interact #s:hover {
+    
+} */
+
+.upper {
+    width: 100%;
+    border-radius: var(--radius) var(--radius) 0 0;
+    height: 125px;
+    background-color: var(--blue);
+    /* z-index: 100; */
+}
+
+.person img{
+    margin-top: 30px;
+    width: auto;
+    height: 150px;
+    z-index: 4;
+    border-radius: 130px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+    height: calc(100% - 125px);
+    border-radius: 0 0 var(--radius) var(--radius);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    /* margin-top: 15px; */
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 25px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    line-height: 1.1;
+    
+}
+
+.person {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background-color: #d9d8d8;
+    position: relative;
+    top: -113px;
+    left: calc(-65px - 155px);
+    /* opacity: 0; */
+    /* z-index: 5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.back {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    background-color: var(--blue);
+    position: relative;
+    top: 20px;
+    left: calc(-70px - 155px);
+    /* z-index: 120; */
+}
+
+.interact {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    border: none;
+    background-color: var(--blue);
+    border-radius: 20px;
+    font-family: 'Cairo', 'serif';
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    font-weight: 300;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%
+}
+
+.job {
+    font-size: 18px;
+    font-weight: normal;
+}
